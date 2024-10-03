@@ -1,0 +1,101 @@
+* {
+    color: rgb(222, 125, 113);
+    background-color: rgb(12, 18, 22);
+}
+
+.header, .navContent, .homeTable, .tableRow, .tableContent,
+ .formCheckbox, .formInput, .form, .details {
+    display: flex;
+}
+
+.header, .tableRow, .tableContent, .formInput, .details {
+    justify-content: center;
+}
+
+.homeTable, .form, .details, .formInput {
+    flex-direction: column;
+}
+
+.navContent, .form, .formInput, .details, .header {
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    height: 100px;
+}
+
+.navContent {
+    height: 75%;
+}
+
+.navTitle {
+    font-size: 60px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.button {
+    font-size: x-large;
+    background-color: rgb(58, 21, 1);
+}
+
+.homeTable{
+    justify-content: top;
+    font-size: xx-large;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-collapse: separate;
+    margin: 1em;
+}
+
+.tableHead {
+    margin-bottom: 10px;
+}
+
+.tableRow {
+    justify-content: space-evenly;
+}
+
+.tableContent {
+    width: 10%;
+}
+
+tr {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+.formInput {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.textInput{
+    width: 50%;
+    font-size: x-large;
+}
+
+.formCheckbox {
+    width: 25%;
+}
+
+.checkboxLabel {
+    margin-right: 5px;
+    font-size: x-large;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+input {
+    background-color: rgb(28, 42, 51);
+}
+
+.details {
+    font-size: x-large;
+}
